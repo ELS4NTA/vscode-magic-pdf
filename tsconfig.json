@@ -1,0 +1,8 @@
+{
+  // Solution-style root: type-checks nothing itself. It only references the two
+  // real projects so editors and ESLint's projectService resolve each file to
+  // the right one (host vs webview) by following these references. Run the
+  // actual checks via `npm run check-types` (one tsc per referenced project).
+  "files": [],
+  "references": [{ "path": "./tsconfig.host.json" }, { "path": "./tsconfig.webview.json" }]
+}

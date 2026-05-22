@@ -1,0 +1,25 @@
+{
+  // hide build artifacts from the Explorer
+  "files.exclude": {
+    "dist": false,
+    "out": true,
+    "**/*.tsbuildinfo": true
+  },
+  // also exclude them from search
+  "search.exclude": {
+    "dist": true,
+    "out": true,
+    "node_modules": true,
+    "lib/build": true,
+    "lib/web/locale": true,
+    "**/*.map": true
+  },
+  // use the project's TS version, not the one bundled with VS Code
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  // auto-fix ESLint issues on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // ESLint v9 uses flat config (eslint.config.mjs)
+  "eslint.useFlatConfig": true
+}

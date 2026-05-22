@@ -1,0 +1,15 @@
+{
+  // Extension host: runs in VS Code's Node-based extension host (Node16 module
+  // resolution, node types). Covers all of src/ except the webview, which is a
+  // separate browser project. Shared protocol types under src/messages are
+  // pulled in automatically as imports.
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "Node16",
+    "lib": ["ES2022"],
+    "rootDir": ".",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/webview"]
+}

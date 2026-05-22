@@ -1,0 +1,14 @@
+{
+  // Webview bundle: runs in the browser (DOM lib), bundled by esbuild into
+  // dist/webview.js. Bundler resolution + ESNext modules; vscode-webview types
+  // for acquireVsCodeApi. The shared protocol types under src/messages come in
+  // automatically via imports.
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vscode-webview"]
+  },
+  "include": ["src/webview/**/*.ts"]
+}

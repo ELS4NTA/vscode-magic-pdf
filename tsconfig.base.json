@@ -1,0 +1,17 @@
+{
+  // Shared compiler options for both projects (host + webview). The
+  // environment-specific bits (module/moduleResolution/lib/types) live in
+  // tsconfig.host.json and tsconfig.webview.json, which extend this file.
+  "compilerOptions": {
+    "target": "ES2022",
+    "noEmit": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
+  }
+}

@@ -1,0 +1,14 @@
+# Normalize line endings to LF across the repo.
+* text=auto eol=lf
+
+# lib/ is the pinned pdfjs prebuild — vendored, not authored here.
+lib/** linguist-vendored
+
+# Binary assets — no textual merge, no EOL normalization.
+*.icc   binary
+*.wasm  binary
+*.bcmap binary
+*.pfb   binary
+*.ttf   binary
+*.otf   binary
+*.gif   binary
