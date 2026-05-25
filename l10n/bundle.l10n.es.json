@@ -1,0 +1,14 @@
+{
+  "No Copilot language models available. Install and sign in to GitHub Copilot.": "No hay modelos de lenguaje de Copilot disponibles. Instala GitHub Copilot e inicia sesión.",
+  "Failed to load PDF": "No se pudo cargar el PDF",
+  "PDF: {0}": "PDF: {0}",
+  "Failed to export PDF: {0}": "No se pudo exportar el PDF: {0}",
+  "Go to section": "Ir a la sección",
+  "Discard & Switch": "Descartar y cambiar",
+  "Switching the view will reload the document and discard your unsaved edits. Save first, or discard them?": "Cambiar la vista recargará el documento y descartará tus ediciones sin guardar. ¿Guardar primero o descartarlas?",
+  "Go to page (1 - {0})": "Ir a la página (1 - {0})",
+  "Go to page": "Ir a la página",
+  "Page number": "Número de página",
+  "Enter a positive integer.": "Introduce un número entero positivo.",
+  "Page {0} exceeds document ({1} pages).": "La página {0} excede el documento ({1} páginas)."
+}
