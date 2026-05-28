@@ -1,0 +1,10 @@
+name: CodeQL config — Magic PDF
+
+paths:
+  - src
+  - media
+
+paths-ignore:
+  - lib
+  - dist
+  - out
