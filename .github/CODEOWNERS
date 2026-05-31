@@ -1,0 +1,23 @@
+# Code owners — https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# Owners are automatically requested for review on PRs that touch matching paths.
+# The LAST matching pattern wins, so more specific rules go further down.
+
+# Default owner for everything in the repo.
+*                       @ELS4NTA
+
+# Vendored pdfjs prebuild — must not be modified outside an upstream bump.
+/lib/                   @ELS4NTA
+
+# Extension source and webview runtime.
+
+/src/                   @ELS4NTA
+/media/                 @ELS4NTA
+
+# Project metadata, packaging, and localization.
+
+/package.json           @ELS4NTA
+/package.nls*.json      @ELS4NTA
+/l10n/                  @ELS4NTA
+
+# Repo automation and community health files.
+/.github/               @ELS4NTA

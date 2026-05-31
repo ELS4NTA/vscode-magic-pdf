@@ -1,0 +1,46 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement for Magic PDF
+title: "[Feature]: "
+labels: ["enhancement"]
+
+body:
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you start
+      description: Please confirm the following.
+      options:
+        - label: I searched [existing issues](https://github.com/ELS4NTA/vscode-magic-pdf/issues?q=is%3Aissue) and this hasn't been requested yet.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: 'Describe the use case or pain point. "I''m always frustrated when …"'
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or other approaches you've thought about.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/ELS4NTA/vscode-magic-pdf/blob/main/CODE_OF_CONDUCT.md).
+          required: true

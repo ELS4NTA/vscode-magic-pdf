@@ -1,0 +1,97 @@
+name: 🐞 Bug report
+description: Report a problem with Magic PDF.
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! Please fill in as much as you can — it makes triage much faster.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you start
+      description: Please confirm the following.
+      options:
+        - label: I searched [existing issues](https://github.com/ELS4NTA/vscode-magic-pdf/issues?q=is%3Aissue) and this hasn't been reported yet.
+          required: true
+        - label: I'm using the latest version of the extension.
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, including what you expected instead.
+      placeholder: When I open a PDF and toggle dark mode, …
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal, numbered steps that reliably trigger the bug.
+      placeholder: |
+        1. Open a `.pdf` file
+        2. Click the … button
+        3. See the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: false
+
+  - type: input
+    id: ext-version
+    attributes:
+      label: Magic PDF version
+      description: See the extension page in VS Code (e.g. 1.0.0).
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code version
+      description: Help → About (e.g. 1.96.0). Include the flavor if not stock VS Code (VSCodium, Cursor, …).
+      placeholder: "1.96.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: 'Output panel → "Magic PDF" channel. Paste anything relevant.'
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: coc
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/ELS4NTA/vscode-magic-pdf/blob/main/CODE_OF_CONDUCT.md).
+          required: true

@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & discussion
+    url: https://github.com/ELS4NTA/vscode-magic-pdf/discussions
+    about: Ask questions, share setups, or discuss ideas before opening an issue.
+
+  - name: ⭐ Marketplace Q&A
+    url: https://marketplace.visualstudio.com/items?itemName=ELS4NTA.vscode-magic-pdf&ssr=false#qna
+    about: Usage questions can also be asked on the Marketplace page.
