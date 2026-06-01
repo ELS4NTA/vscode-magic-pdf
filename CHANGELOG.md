@@ -4,6 +4,14 @@ All notable changes to **Magic PDF** are documented here. The format is
 based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0](https://github.com/ELS4NTA/vscode-magic-pdf/compare/v1.0.0...v1.1.0) (2026-06-01)
+
+
+### Features
+
+* **localization:** add english and spanish localization ([c19b1bb](https://github.com/ELS4NTA/vscode-magic-pdf/commit/c19b1bb1145f266b69aecd89904d5bd52ff4cdf8))
+* **pdf:** add pdf custom editor with webview viewer ([7e1da59](https://github.com/ELS4NTA/vscode-magic-pdf/commit/7e1da5994b8ea24116f82c618503ae69e7762b95))
+
 ## [1.0.0] - 2026-05-31
 
 First public release of **Magic PDF** — a VS Code custom editor for PDF

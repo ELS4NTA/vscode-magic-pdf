@@ -2,7 +2,7 @@
   "name": "vscode-magic-pdf",
   "displayName": "Magic PDF",
   "description": "%extension.description%",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "ELS4NTA",
   "license": "Apache-2.0",
   "author": {
