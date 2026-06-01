@@ -5,16 +5,10 @@ View, annotate and translate PDF files inside VS Code — dark mode, page-color 
 [![CI](https://img.shields.io/github/actions/workflow/status/ELS4NTA/vscode-magic-pdf/ci.yml?branch=main&label=CI)](https://github.com/ELS4NTA/vscode-magic-pdf/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/ELS4NTA/vscode-magic-pdf)](./LICENSE)
 
-<!-- Activar tras el primer publish en el Marketplace (hasta entonces darían "not found"):
-[![Version](https://img.shields.io/visual-studio-marketplace/v/ELS4NTA.vscode-magic-pdf?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=ELS4NTA.vscode-magic-pdf)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/ELS4NTA.vscode-magic-pdf)](https://marketplace.visualstudio.com/items?itemName=ELS4NTA.vscode-magic-pdf)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/ELS4NTA.vscode-magic-pdf)](https://marketplace.visualstudio.com/items?itemName=ELS4NTA.vscode-magic-pdf&ssr=false#review-details)
--->
 
-<!-- TODO(captura): reemplazar por un GIF/imagen PROPIO. El anterior era de otra
-     extensión (heredado del fork). Sugerido: demo de theme sync + traducción IA +
-     outline. Guárdalo en docs/images/ y referencia la ruta relativa aquí. -->
-![Magic PDF](docs/images/demo.gif)
+https://github.com/user-attachments/assets/f8e57d99-7afb-47c5-bb7d-24ef92ea33fd
+
+
 
 ## Features
 
