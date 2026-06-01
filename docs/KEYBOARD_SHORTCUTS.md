@@ -116,18 +116,3 @@ When the highlight color picker dropdown is open:
 | `Cmd/Ctrl+C` | Copy selected text |
 | `Cmd/Ctrl+A` (outside editor mode) | Native browser selection; used by pdfjs to enable "copy all" when followed by copy |
 | `Esc` (during copy all) | Cancel the copy |
-
-> The text layer must be enabled (`pdf-preview.default.textLayer=enable`). If set to `enablePermissions` and the PDF disallows copying, copy is disabled.
-
-## Notes
-
-- When focus is on an `<input>` / `<textarea>` / `<select>` (e.g. the page-number input or the find input), pdfjs only processes `Esc`; the rest of the keys go to the form control.
-- To bind your own VS Code command to a shortcut that controls the PDF from outside the webview, use `keybindings.json` — but note that **VS Code does not capture keystrokes inside a custom-editor webview**: pdfjs consumes them first.
-
-Sources:
-
-- Main handler: `lib/web/viewer.mjs:19816-20090` (`onKeyDown`)
-- Print: `lib/web/viewer.mjs:9146`
-- Annotations: `lib/build/pdf.mjs:2665` (`AnnotationEditorUIManager._keyboardManager`)
-- Annotation resizer: `lib/build/pdf.mjs:5065`
-- Color picker: `lib/build/pdf.mjs:16528`

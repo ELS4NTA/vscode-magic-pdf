@@ -35,3 +35,12 @@ Third-party assets bundled with this extension.
 - Collection: Bootstrap Icons
 - Authors: The Bootstrap Authors
 - License: [MIT](https://github.com/twbs/icons/blob/main/LICENSE) (attribution courtesy, not legally required)
+
+## Sample documents
+
+### compressed.tracemonkey-pldi-09.pdf
+
+- File: `examples/compressed.tracemonkey-pldi-09.pdf`
+- Purpose: sample PDF used for manual testing only (not packaged with the extension).
+- Document: "Trace-based Just-in-Time Type Specialization for Dynamic Languages" (PLDI 2009), by Andreas Gal et al.
+- Source: the canonical test document shipped with [Mozilla PDF.js](https://github.com/mozilla/pdf.js/blob/master/web/compressed.tracemonkey-pldi-09.pdf)
