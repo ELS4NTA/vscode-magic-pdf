@@ -4,6 +4,14 @@ All notable changes to **Magic PDF** are documented here. The format is
 based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0](https://github.com/ELS4NTA/vscode-magic-pdf/compare/v1.1.0...v1.2.0) (2026-06-01)
+
+
+### Features
+
+* **docs:** add sample PDF document for testing ([6c0b70b](https://github.com/ELS4NTA/vscode-magic-pdf/commit/6c0b70b4040f0e60068d8c99fc4d019a4ef0c082))
+* **docs:** add sample PDF document for testing ([f10ce10](https://github.com/ELS4NTA/vscode-magic-pdf/commit/f10ce1042f2a131b014a0ccf59b5cf79a3aeeb46))
+
 ## [1.1.0](https://github.com/ELS4NTA/vscode-magic-pdf/compare/v1.0.0...v1.1.0) (2026-06-01)
 
 
