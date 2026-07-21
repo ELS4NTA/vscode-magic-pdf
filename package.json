@@ -368,7 +368,7 @@
     "@types/node": "^25.9.1",
     "@types/vscode": "^1.91.0",
     "@types/vscode-webview": "^1.57.5",
-    "@vscode/vsce": "^3.9.1",
+    "@vscode/vsce": "^3.9.2",
     "esbuild": "^0.28.0",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
