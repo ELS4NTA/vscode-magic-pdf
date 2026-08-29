@@ -33,10 +33,10 @@ updates:
         update-types:
           - "minor"
     ignore:
-      # Bumping this past the engines floor would silently drop support for
-      # older VS Code versions — review those manually.
+      # Pinned to the engines.vscode floor on purpose: any bump lets the
+      # compiler accept APIs missing from the oldest supported editor, and
+      # vsce rejects the package outright. Raise engines.vscode first.
       - dependency-name: "@types/vscode"
-        update-types: ["version-update:semver-major"]
 
   # GitHub Actions — keeps the pinned SHAs for ci/commitlint/release/codeql/
   # security up to date (Dependabot bumps the pin and rewrites the # vX.Y.Z tag).

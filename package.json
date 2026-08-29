@@ -366,7 +366,7 @@
     "@commitlint/config-conventional": "^21.0.2",
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.9.1",
-    "@types/vscode": "^1.125.0",
+    "@types/vscode": "1.91.0",
     "@types/vscode-webview": "^1.57.5",
     "@vscode/vsce": "^3.9.2",
     "esbuild": "^0.28.1",
