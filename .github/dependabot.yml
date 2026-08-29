@@ -17,20 +17,29 @@ updates:
       prefix: "chore"
       include: "scope"
     groups:
+      # Patches never get their own PR: they ride along in a single weekly
+      # rollup. Security updates are exempt (groups only apply to version
+      # updates), so a CVE fixed by a patch still opens its own PR.
+      patch-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
       # Collapse routine dev-tooling bumps into a single PR to cut noise.
       dev-dependencies:
+        applies-to: version-updates
         dependency-type: "development"
         update-types:
           - "minor"
-          - "patch"
     ignore:
       # Bumping this past the engines floor would silently drop support for
       # older VS Code versions — review those manually.
       - dependency-name: "@types/vscode"
         update-types: ["version-update:semver-major"]
 
-  # GitHub Actions — mantiene al día los SHA pineados de ci/commitlint/release/
-  # codeql/security (Dependabot bumpea el pin y actualiza el comentario # vX.Y.Z).
+  # GitHub Actions — keeps the pinned SHAs for ci/commitlint/release/codeql/
+  # security up to date (Dependabot bumps the pin and rewrites the # vX.Y.Z tag).
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -41,3 +50,11 @@ updates:
       - "github-actions"
     commit-message:
       prefix: "ci"
+    groups:
+      # Same rule as npm: patch bumps land as one rollup PR, not one each.
+      patch-updates:
+        applies-to: version-updates
+        patterns:
+          - "*"
+        update-types:
+          - "patch"
