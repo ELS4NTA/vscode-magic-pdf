@@ -370,12 +370,12 @@
     "@types/vscode-webview": "^1.57.5",
     "@vscode/vsce": "^3.9.2",
     "esbuild": "^0.28.1",
-    "eslint": "^10.6.0",
+    "eslint": "^10.10.0",
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "prettier": "^3.9.1",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.62.0",
+    "typescript-eslint": "^8.70.0",
     "vitest": "^4.1.9"
   },
   "extensionKind": [
